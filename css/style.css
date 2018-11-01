@@ -1,0 +1,18 @@
+#jbtheading {
+    position: relative;
+    left: 20%;
+    
+}
+
+#jbtbox {
+    background-color: #99ddff;
+    color: white;
+}
+
+#bob {
+    text-align: center;
+}
+
+input[type=text] {
+    width: 100%;
+}
