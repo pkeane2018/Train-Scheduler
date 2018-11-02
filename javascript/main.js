@@ -4,7 +4,6 @@ var currentTime = moment();
 console.log("CURRENT TIME: " + moment(currentTime).format("hh:mm"));
 
     var config = {
-        apiKey: "AIzaSyCeEpOwL8shW0sr9Ny1lFXNwScn83_AMOA",
         authDomain: "train-scheduler-ade65.firebaseapp.com",
         databaseURL: "https://train-scheduler-ade65.firebaseio.com",
         projectId: "train-scheduler-ade65",
@@ -62,7 +61,10 @@ console.log("CURRENT TIME: " + moment(currentTime).format("hh:mm"));
             firstTime : firstTime,  
         });
 
-
+        $("#trainname").val(" ");
+        $("#frequency").val(" ");
+        $("#destination").val(" ");
+        $("#firstTrain").val(" ");
     })    
 
     database.ref().on("child_added", function(snapshot) {
