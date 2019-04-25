@@ -9,6 +9,12 @@ The main directory file contains the index.html file, Readme.md file, and the as
 
 ## How to use
 The user inputs the name, destination, first arrival time, and frequency of the train. A jQuery function then updates the current train schedule with the new train information every time the user clicks the submit button. This information is stored in a Firebase database, and is loaded and displayed in the current train schedule every time a user opens the page. The page also utilizes Moment.js, along with the first train arrival time and frequency information provided by the user, to determine what time the next train will arrive and how many minutes until then from the time that the page loads. 
+<br><br>
+![Image](./images/image-1.png)
+<br><br>
+![Image](./images/image-2.png)
+<br><br>
+![Image](./images/image-3.png)
 
 ## Technology used
 * HTML
